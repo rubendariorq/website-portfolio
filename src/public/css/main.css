@@ -1,0 +1,105 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    font: normal 1em 'Roboto', sans-serif;
+}
+
+html, body{
+    height: 100%;
+}
+
+.foto img{
+    width: 69%;
+    position: absolute;
+    bottom: 0px;
+    left: 14%;
+    z-index: 0;
+}
+
+header{
+    height: 63px;
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+}
+
+header div{
+    display: inline-block;
+}
+
+section{
+    height: 100%;
+}
+
+.marca .isotipo img{
+    height: 45px;
+    padding: 7px;
+    background-color: firebrick;
+}
+
+.marca .logotipo{
+    letter-spacing: 0.3em;
+    font-weight: bold;
+    position: absolute;
+    padding: 14px 10px;
+    font-size: 0.8em;
+    margin: 10px 0px;
+}
+
+section .foto{
+    float: left;
+    position: fixed;
+    background-color: #FFFFFF;
+    width: 50%;
+    height: 100%;
+}
+
+section .presentacion{
+    float: left;
+    width: 40%;
+    margin-left: 50%;
+    padding: 100px 5%;
+    color: #FFFFFF;
+    background-color: firebrick;
+}
+
+h1{
+    font-size: 4em;
+    font-weight: bold;
+}
+
+h2{
+    font-size: 2em;
+}
+
+h1, h2, p{
+    margin-bottom: 15px;
+}
+
+p{
+    line-height: 1.5em;
+    text-align: justify;
+}
+
+.presentacion p a{
+    font-size: 1.2em;
+    color: #FFFFFF;
+}
+
+.presentacion ul li{
+    list-style: none;
+    margin-bottom: 5px;
+}
+
+.presentacion ul li a{
+    color: #FFFFFF;
+    text-decoration: none;
+}
+
+.presentacion ul li a:hover{
+    text-decoration: underline;
+}
+
+.presentacion ul li span{
+    margin-right: 10px;
+}
